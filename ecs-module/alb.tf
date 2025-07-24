@@ -24,8 +24,6 @@ resource "aws_lb_target_group" "this" {
   }
   tags = merge(var.tags, { Name = "${var.name}-tg" })
 
-  # depends_on = [aws_lb_listener.this]
-
 }
 
 resource "aws_lb_listener" "this" {

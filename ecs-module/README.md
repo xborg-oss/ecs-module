@@ -10,18 +10,6 @@ This module provisions a complete, production-ready AWS ECS (Elastic Container S
 - IAM roles for ECS task execution
 - All resources are tagged and configurable
 
-## Architecture
-```
-[Internet]
-   |
-[ALB]---(Public Subnets)
-   |
-[ECS Service (Fargate)]---(Private Subnets)
-   |
-[NAT Gateway]---(Public Subnets)
-   |
-[VPC]
-```
 
 ## Usage Example
 ```hcl
