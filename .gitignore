@@ -6,7 +6,7 @@
 crash.log
 
 # Local variable files
-*.tfvars
+# *.tfvars
 *.tfvars.json
 
 # Sensitive files
